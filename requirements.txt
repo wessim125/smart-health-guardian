@@ -1,0 +1,23 @@
+# ==================== Core ====================
+streamlit==1.38.0
+opencv-python==4.10.0.84
+numpy==1.26.4
+pandas==2.2.2
+
+# ==================== AI / Vision ====================
+mediapipe==0.10.14
+ultralytics==8.3.13          # YOLOv8 officiel (inclut torch, torchvision, etc.)
+torch==2.4.1+cpu             # Version CPU (plus léger pour Streamlit Cloud)
+# torch==2.4.1+cu121         # Décommente cette ligne si tu as un GPU NVIDIA + CUDA 12.1
+# torchvision==0.19.1+cu121
+
+# ==================== Utils ====================
+plotly==5.24.0
+Pillow==10.4.0
+
+# ==================== Optimisations (optionnel mais recommandé) ====================
+# Pour accélérer le traitement vidéo sur Streamlit Cloud / PC
+opencv-python-headless==4.10.0.84   # À la place de opencv-python si tu as des problèmes d'affichage
+
+# Pour éviter les conflits sur certains hébergeurs
+protobuf==4.25.4             # Version stable avec mediapipe 0.10.14
