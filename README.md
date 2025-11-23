@@ -36,28 +36,7 @@ https://github.com/user-attachments/assets/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ---
 
-## Captures d’écran
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/xxxxxx" alt="Accueil></td>
-    <td><img src="https://github.com/user-attachments/assets/xxxxxx" alt="Éternuement détecté"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Accueil élégant</b></td>
-    <td align="center"><b>Éternuement non couvert (rouge)</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/xxxxxx" alt="Masques"></td>
-    <td><img src="https://github.com/user-attachments/assets/xxxxxx" alt="Distanciation"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Détection de masques (vert/jaune/rouge)</b></td>
-    <td align="center"><b>Distanciation sociale – violations en rouge</b></td>
-  </tr>
-</table>
-
----
 
 ## Installation rapide (local)
 
