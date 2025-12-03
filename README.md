@@ -50,7 +50,7 @@ Here are some screenshots showcasing the main features of Smart Health Guardian:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/smart-health-guardian.git
+git clone https://github.com/wessim125/smart-health-guardian.git
 cd smart-health-guardian
 
 # 2. Create a virtual environment (recommended)
