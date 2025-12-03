@@ -22,14 +22,14 @@ Here are some screenshots showcasing the main features of Smart Health Guardian:
 
 <p float="left">
   <img src="Capture d'écran 2025-12-03 114129.png" width="250" />
-  <img src="Capture_114245.png" width="250" />
-  <img src="Capture_114354.png" width="250" />
+  <img src="Capture d'écran 2025-12-03 114245.png" width="250" />
+  <img src="Capture d'écran 2025-12-03 114504.png" width="250" />
 </p>
 
 <p float="left">
-  <img src="Capture_114435.png" width="250" />
-  <img src="Capture_114504.png" width="250" />
-  <img src="Capture_114629.png" width="250" />
+  <img src="Capture d'écran 2025-12-03 114435.png" width="250" />
+  <img src="Capture d'écran 2025-12-03 114354.png" width="250" />
+  
 </p>
 
 ---
