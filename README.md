@@ -5,7 +5,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://python.org)  
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  
-[![Stars](https://img.shields.io/github/stars/your-username/smart-health-guardian?style=social)](https://github.com/your-username/smart-health-guardian)
+[![Stars](https://img.shields.io/github/stars/wessim125/smart-health-guardian?style=social)](https://github.com/wessim125/smart-health-guardian)
 
 > A modern web application based on **Streamlit + MediaPipe + YOLOv8** that automatically detects risky health behaviors:  
 > - Uncovered sneezes  
