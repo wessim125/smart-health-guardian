@@ -21,7 +21,7 @@ Ideal for hospitals, schools, offices, train stations, airports, etc.
 Here are some screenshots showcasing the main features of Smart Health Guardian:
 
 <p float="left">
-  <img src="demo/screenshots/Capture_114129.png" width="250" />
+  <img src="smart-health_guardian/Capture_114129.png" width="250" />
   <img src="demo/screenshots/Capture_114245.png" width="250" />
   <img src="demo/screenshots/Capture_114354.png" width="250" />
 </p>
