@@ -1,54 +1,66 @@
 <img src="https://img.icons8.com/fluency/96/health-graph.png" width="120" align="right" />
 
 # Smart Health Guardian  
-### Système Intelligent de Surveillance Sanitaire en Temps Réel
+### Real-Time Intelligent Health Monitoring System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-link.streamlit.app)](https://your-streamlit-link.streamlit.app)  
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://python.org)  
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)  
-[![Stars](https://img.shields.io/github/stars/votre-pseudo/smart-health-guardian?style=social)](https://github.com/votre-pseudo/smart-health-guardian)
+[![Stars](https://img.shields.io/github/stars/your-username/smart-health-guardian?style=social)](https://github.com/your-username/smart-health-guardian)
 
-> Une application web moderne basée sur **Streamlit + MediaPipe + YOLOv8** pour détecter automatiquement les comportements à risque sanitaire :  
-> - Éternuements non couverts  
-> - Port incorrect du masque  
-> - Non-respect de la distanciation sociale  
+> A modern web application based on **Streamlit + MediaPipe + YOLOv8** that automatically detects risky health behaviors:  
+> - Uncovered sneezes  
+> - Incorrect mask wearing  
+> - Social distancing violations  
 
-Idéal pour les hôpitaux, écoles, entreprises, gares, aéroports, etc.
-
----
-
-## Demo en vidéo (2 min)
-
-https://github.com/user-attachments/assets/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx  
-*(Remplace par ta propre vidéo YouTube ou GitHub Assets)*
+Ideal for hospitals, schools, offices, train stations, airports, etc.
 
 ---
 
-## Fonctionnalités principales
+## Demo Screenshots
 
-| Module                     | Fonctionnalité                                                                 | Technologie utilisée                     |
-|----------------------------|----------------------------------------------------------------------------------|------------------------------------------|
-| Détection d’Éternuements   | Détecte les éternuements + vérifie si la personne se couvre (main, coude, etc.) | MediaPipe Pose + Hands                   |
-| Détection de Masques       | With mask / Without mask / Incorrect mask                                      | YOLOv8 custom entraîné                   |
-| Distanciation Sociale      | Alerte en temps réel quand deux personnes sont trop proches                    | YOLOv8n + calcul euclidien des centroïdes |
-| Interface moderne          | Design fluide, responsive, dark gradient, animations                           | Streamlit + CSS personnalisé             |
-| Export résultats           | Vidéo annotée + rapport JSON détaillé                                          | OpenCV + JSON                            |
+Here are some screenshots showcasing the main features of Smart Health Guardian:
+
+<p float="left">
+  <img src="demo/screenshots/Capture_114129.png" width="250" />
+  <img src="demo/screenshots/Capture_114245.png" width="250" />
+  <img src="demo/screenshots/Capture_114354.png" width="250" />
+</p>
+
+<p float="left">
+  <img src="demo/screenshots/Capture_114435.png" width="250" />
+  <img src="demo/screenshots/Capture_114504.png" width="250" />
+  <img src="demo/screenshots/Capture_114629.png" width="250" />
+</p>
 
 ---
 
+## Key Features
 
+| Module                     | Feature                                                                 | Technology Used                     |
+|----------------------------|-------------------------------------------------------------------------|-------------------------------------|
+| Sneezes Detection          | Detects sneezes + checks if the person covers mouth/nose (hand, elbow) | MediaPipe Pose + Hands               |
+| Mask Detection             | With mask / Without mask / Incorrect mask                              | Custom-trained YOLOv8                |
+| Social Distancing          | Alerts in real-time when two people are too close                      | YOLOv8n + Euclidean centroid distance |
+| Modern Interface           | Smooth, responsive design with dark gradient and animations           | Streamlit + Custom CSS               |
+| Export Results             | Annotated video + detailed JSON report                                 | OpenCV + JSON                        |
 
-## Installation rapide (local)
+---
+
+## Quick Installation (Local)
 
 ```bash
-# 1. Cloner le projet
-git clone https://github.com/votre-pseudo/smart-health-guardian.git
+# 1. Clone the repository
+git clone https://github.com/your-username/smart-health-guardian.git
 cd smart-health-guardian
 
-# 2. Créer un environnement virtuel (recommandé)
+# 2. Create a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
 
-# 3. Installer les dépendances
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Run the application
+streamlit run app.py
+
